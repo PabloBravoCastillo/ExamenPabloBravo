@@ -1,0 +1,67 @@
+/*# sourceMappingURL=style.css.map */
+
+div table tbody tr td{
+    align-items: center center;
+    
+    border: 2px solid rgb(255, 115, 0);
+  text-align: center;
+  padding: 8px;
+}
+div table thead tr td{
+    align-items: center center;
+    background-color: rgb(255, 115, 0);
+    border: 2px solid rgb(255, 115, 0);
+  text-align: center;
+  padding: 8px;
+}
+div table{
+font-family: arial, sans-serif;
+  border-collapse: collapse;
+  
+  text-align: center;
+  
+}
+.pestanaDietas{
+    
+    border: 5px solid black;
+    border-radius: 22px 22px 22px 22px;
+}
+.bodytabla{
+    
+    padding: 16px 32px;
+    margin: 4px 2px;
+    text-align: center;
+    
+}
+.footer{
+    border-top: 5px solid black;
+    border-radius: 0px 0px 39px 22px;
+    text-align: center;
+}
+.header{
+    border-bottom: 5px solid black;
+    border-radius: 22px 22px 0px 0px;
+    text-align: center;
+}
+.btnAcliente{
+    border: 2px solid #000000;
+  color: rgb(255, 255, 255);
+  background-color: green;
+  border-radius: 22px 22px 22px 22px;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.pestanaForm{
+   
+    border: 5px solid black;
+    border-radius: 22px 22px 22px 22px;
+}
+.oculto{
+    
+    display: none;
+}

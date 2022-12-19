@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Completa tu nombre -->
+    <title>Pablo Bravo</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <!-- Completar html aqui -->
+<div id="pestanaDietas" class="pestanaDietas">
+    <div class="header">
+        <h1>Aplicación Dietas</h1>
+    </div>
+    <div class="bodytabla">
+<table class="tabla">
+    <thead>
+    <tr>
+        <td>Nombre</td>
+        <td>Sexo</td>
+        <td>Edad</td>
+        <td>Altura</td>
+        <td>Peso</td>
+        <td>Actividad</td>
+        <td>IM Basal</td>
+        <td>Calorias Necesarias</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Francisco Romero</td>
+        <td>hombre</td>
+        <td>31</td>
+        <td>198</td>
+        <td>89</td>
+        <td>moderada</td>
+        <td>1427 kCal</td>
+        <td>1712 kCal</td>
+    </tr>
+    <tr>
+        <td>Jose Antonio Lara</td>
+        <td>hombre</td>
+        <td>46</td>
+        <td>187</td>
+        <td>85</td>
+        <td>moderada</td>
+        <td>1333 kCal</td>
+        <td>1435 kCal</td>
+    </tr>
+    <tr>
+        <td>Jenniffer Lopez</td>
+        <td>mujer</td>
+        <td>45</td>
+        <td>167</td>
+        <td>56</td>
+        <td>alta</td>
+        <td>1256 kCal</td>
+        <td>1943 kCal</td>
+    </tr>
+    </tbody>
+    
+</table>
+
+    <button onclick="cambiop1ap2()" class="btnAcliente">Añadir Cliente</button>
+
+</div>
+
+
+<div class="footer">
+    <h2>Pablo Bravo &copy; 2022</h2>
+    </div>
+</div>
+
+
+
+<div id="pestanaForm" class="pestanaForm oculto">
+    <div class="header">
+        <h1>Nuevo Cliente</h1>
+    </div>
+<div class="bodyForm">
+    <form action="" class="centro">
+        <p>Nombre: <input type="text"></p>
+        <p>Sexo: <input type="radio" value="dam" name="curso">Hombre <input value="daw" type="radio" name="curso">Mujer</p>
+        <p>Edad:<input type="number" value="20"></p>
+        <p>Altura(cm):<input type="number" value="165"></p>
+        <p>Peso (Kg):<input type="number" value="65"></p>
+        <p>Actividad física:<input type="number"></p>
+          
+
+        <p>
+            Actividad física: 
+            <select name="modulo">
+              <option>Suave o sedentaria</option>
+              <option>Moderada</option>
+              <option>Alta</option>
+            </select>
+          <p>
+
+    </form>
+</div>
+
+<div class="footer">
+    
+<a href="">
+    <button class="btnAcliente">Añadir Nuevo</button>
+    </a>
+
+
+    <a href="">
+        <button onclick="cambiop2ap1()" class="btnAcliente">Volver Atras</button>
+        </a>
+</div>
+
+
+
+</div>
+
+
+    <script src="/static/app.js"></script>
+
+</body>
+</html>
